@@ -1,11 +1,11 @@
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import MapWithSidebar from "./pages/MapWithSidebar.jsx";
-import Navbar from "./components/Navbar.jsx"; // Import the Navbar component
+import Navbar from "./components/Navbar.jsx";
 
 function App() {
   return (
     <Router>
-      <Navbar /> {/* Add the Navbar component here */}
+      <Navbar />
       <Routes>
         <Route exact path="/" element={<MapWithSidebar />} />
       </Routes>
