@@ -1,13 +1,12 @@
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
-import Index from "./pages/Index.jsx";
+
 import MapWithSidebar from "./pages/MapWithSidebar.jsx";
 
 function App() {
   return (
     <Router>
       <Routes>
-        <Route exact path="/" element={<Index />} />
-      <Route path="/map" element={<MapWithSidebar />} />
+        <Route exact path="/" element={<MapWithSidebar />} />
       </Routes>
     </Router>
   );
